@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-        playfair: ['Playfair Display', 'serif'],
+        sans: ['Poppins', 'sans-serif'], // Poppins sebagai default font sans
+        playfair: ['Playfair Display', 'serif'], // Playfair Display untuk heading atau elemen lain
       },
     },
   },

@@ -9,7 +9,10 @@ const ProductCategory = () => {
     <section id="productcategory" className="w-full py-16 px-8 bg-blue-900">
       <div className="flex items-center justify-center">
         <div className="flex flex-col gap-8 w-full md:w-3/4">
-          <h1 className="text-center text-3xl md:text-4xl font-bold font-playfair mb-8 text-white">Product Category</h1>
+          <div>
+            <h1 className="text-center text-3xl md:text-6xl font-bold font-playfair  text-white">Product</h1>
+            <h1 className="text-center text-3xl md:text-6xl font-bold font-playfair mb-8 text-white">Category</h1>
+          </div>
           <div className="flex flex-col md:flex-row gap-8 justify-center">
             <div className={classMission}>
               <p className="absolute top-4 left-4 text-4xl md:text-5xl font-bold text-gray-400 z-20">01</p>

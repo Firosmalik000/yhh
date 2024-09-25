@@ -27,10 +27,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`fixed top-0 z-50 w-full transition-colors duration-300 ${isScrolled ? 'bg-white shadow-lg text-black' : 'bg-blue-600 text-white'}`}>
-      <div className="container mx-auto flex items-center justify-between h-16 px-4 md:px-6 lg:px-8">
+    <div className={`fixed top-0 z-50 w-full transition-colors duration-300 ${isScrolled ? 'bg-white shadow-lg text-black' : 'bg-blue-700 text-white'}`}>
+      <div className="container mx-auto flex items-center justify-between h-[100px] px-4 md:px-8 lg:px-[100px]">
         <div className="flex items-center gap-2">
-          <img src={LogoImage} className="w-[80px]" alt="Logo" />
+          <img src={LogoImage} className="w-[150px]" alt="Logo" />
         </div>
 
         <div className="hidden lg:flex items-center gap-x-6">
@@ -43,6 +43,9 @@ const Navbar = () => {
           </div>
           <div onClick={() => handleScrollTo('productcategory')} className={classOptionNav}>
             ProductCategory
+          </div>
+          <div onClick={() => handleScrollTo('productcatalog')} className={classOptionNav}>
+            Catalog
           </div>
           <div onClick={() => handleScrollTo('contact')} className={classOptionNav}>
             Contact Us
@@ -63,16 +66,15 @@ const Navbar = () => {
             <div onClick={() => handleScrollTo('about')} className="cursor-pointer text-center">
               About
             </div>
-            <div onClick={() => handleScrollTo('vision')} className="cursor-pointer text-center">
-              vision
+            <div onClick={() => handleScrollTo('ourbrand')} className="cursor-pointer text-center">
+              Our Brand
             </div>
-            <div onClick={() => handleScrollTo('mision')} className="cursor-pointer text-center">
-              Mission
+            <div onClick={() => handleScrollTo('productcategory')} className="cursor-pointer text-center">
+              ProductCategory
             </div>
-            <div onClick={() => handleScrollTo('service')} className="cursor-pointer text-center">
-              Service
+            <div onClick={() => handleScrollTo('productcatalog')} className="cursor-pointer text-center">
+              Catalog
             </div>
-
             <div onClick={() => handleScrollTo('contact')} className="cursor-pointer text-center">
               Contact Us
             </div>
