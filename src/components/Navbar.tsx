@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`fixed top-0 z-50 w-full transition-colors duration-300 ${isScrolled ? 'bg-white shadow-lg text-black' : 'bg-blue-700 text-white'}`}>
+    <div className={`fixed top-0 z-50 w-full transition-colors duration-300 ${isScrolled ? 'bg-white shadow-lg text-black' : 'bg-gray-200 '}`}>
       <div className="container mx-auto flex items-center justify-between h-[100px] px-4 md:px-8 lg:px-[100px]">
         <div className="flex items-center gap-2">
           <img src={LogoImage} className="w-[150px]" alt="Logo" />
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="lg:hidden fixed inset-0 bg-blue-700 text-white flex flex-col items-center justify-center pt-16">
+        <div className="lg:hidden fixed inset-0 bg-gray-200  flex flex-col items-center justify-center pt-16">
           <div className="absolute top-4 right-4 cursor-pointer" onClick={() => setIsMenuOpen(false)}>
             <FaTimes size={30} />
           </div>
