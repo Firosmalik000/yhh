@@ -11,18 +11,18 @@ const Catalog = () => {
         <div className="flex flex-col gap-8 w-full md:w-3/4">
           <h1 className="text-center text-3xl md:text-5xl font-extrabold font-sans mb-8">Product Catalog</h1>
           <div className="flex flex-col md:flex-row gap-8 justify-center">
-            <div className={classMission}>
+            <a href="https://drive.google.com/file/d/1sTr01ZHGkLJDwo5nuzPmoTUC1D0WACLJ/view?usp=drivesdk" className={`block ${classMission}`}>
               {/* <p className="absolute top-4 left-4 text-4xl md:text-5xl font-bold text-gray-400 z-20">01</p> */}
-              <img src={cat3} alt="Category 1" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-            </div>
+              <img src={cat1} alt="Category 1" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+            </a>
             <a href="https://drive.google.com/file/d/1fQxfI6hCIKPJaLwm0EpRD58T45criO_I/view" className={`block ${classMission}`}>
               {/* <p className="absolute top-4 left-4 text-4xl md:text-5xl font-bold text-gray-400 z-20">02</p> */}
               <img src={cat2} alt="Category 2" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
             </a>
-            <div className={classMission}>
+            <a href="https://drive.google.com/file/d/1N-Ml3Tr7sq0MnA3Jqld_4CuJT4uJ4qa0/view?usp=drivesdk" className={`block ${classMission}`}>
               {/* <p className="absolute top-4 left-4 text-4xl md:text-5xl font-bold text-gray-400 z-20">03</p> */}
-              <img src={cat1} alt="Category 3" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-            </div>
+              <img src={cat3} alt="Category 3" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+            </a>
           </div>
         </div>
       </div>
