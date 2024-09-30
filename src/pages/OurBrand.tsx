@@ -1,6 +1,6 @@
-import cat1 from '../img/logo1.png';
-import cat2 from '../img/logo2.png';
-import cat3 from '../img/logo3.png';
+import cat1 from '../img/loogo33.png';
+import cat2 from '../img/loogo11.png';
+import cat3 from '../img/loogo22.png';
 import satu from '../img/satu.jpg';
 import dua from '../img/sadua.jpg';
 import tiga from '../img/satiga.jpg';
@@ -21,7 +21,7 @@ const OurBrand = () => {
       <div className="flex items-center justify-center">
         <div className="flex flex-col gap-8 w-full md:w-3/4">
           <h1 className="text-center text-3xl md:text-5xl font-extrabold font-sans mb-4 ">Our Brand</h1>
-          <div className="flex flex-col md:flex-row gap-8 justify-center">
+          <div className="flex flex-col md:flex-row gap-x-10 justify-center">
             <div className={classMission}>
               <img src={cat2} alt="Category 2" className="w-[100px] transition-transform duration-500 group-hover:scale-110" />
             </div>
