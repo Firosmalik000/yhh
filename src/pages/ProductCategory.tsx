@@ -6,7 +6,7 @@ const ProductCategory = () => {
   const classMission = 'relative flex justify-center items-center text-center w-full max-w-[350px] md:max-w-[500px] h-[300px] md:h-[400px] z-10 bg-white rounded-lg shadow-md overflow-hidden group';
 
   return (
-    <section id="productcategory" className="w-full py-16 px-8 bg-blue-900">
+    <section id="productcategory" className="w-full py-16 px-8 bg-black">
       <div className="flex items-center justify-center">
         <div className="flex flex-col gap-8 w-full md:w-3/4">
           <div>

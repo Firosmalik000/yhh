@@ -3,7 +3,7 @@ import logo from '../img/logofooter.png';
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full py-12 px-10 md:px-[300px] flex flex-col md:flex-row justify-between gap-x-10 bg-yellow-500 border border-black">
+    <section id="contact" className="w-full py-12 px-10 md:px-[300px] flex flex-col md:flex-row justify-between gap-x-10 bg-gray-200 ">
       <div className="w-full md:w-1/2 flex justify-start items-center">
         <img src={logo} alt="Logo" className="w-[200px] h-[200px]" />
       </div>
