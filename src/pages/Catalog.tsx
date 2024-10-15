@@ -1,6 +1,6 @@
-import cat1 from '../img/catalog1.jpg';
-import cat2 from '../img/catalog2.jpg';
-import cat3 from '../img/catalog3.jpg';
+import cat1 from "../img/changeroll.jpeg";
+import cat2 from "../img/changemain.jpeg";
+import cat3 from "../img/changekepala.jpeg";
 
 const Catalog = () => {
   const classMission = 'relative flex justify-center items-center text-center w-full max-w-[350px] md:max-w-[500px] z-10 bg-white rounded-lg shadow-md overflow-hidden group';
