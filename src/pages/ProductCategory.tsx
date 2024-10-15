@@ -1,6 +1,6 @@
-import cat1 from '../img/category1.jpg';
-import cat2 from '../img/category2.jpg';
-import cat3 from '../img/category3.jpg';
+import cat1 from '../img/changeroll.jpeg';
+import cat2 from '../img/changemain.jpeg';
+import cat3 from '../img/chagekepala.jpeg';
 
 const ProductCategory = () => {
   const classMission = 'relative flex justify-center items-center text-center w-full max-w-[350px] md:max-w-[500px] h-[300px] md:h-[400px] z-10 bg-white rounded-lg shadow-md overflow-hidden group';
